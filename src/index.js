@@ -92,8 +92,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <AppProvider>
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/stakelog" element={<StakeLog />} />
+            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/" element={<StakeLog />} />
           </Routes>
         </Router>
       </AppProvider>

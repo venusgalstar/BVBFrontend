@@ -68,10 +68,10 @@ export default function StakeLog() {
       <Box className="card">
         <Box className="card-header">
           <Box>
-            <Typography className='header-title'>My Staking</Typography>
+            <Typography className='header-title'>My Reward</Typography>
           </Box>
           <Box className="account-container">
-            <Typography className='address'>{totalStaked} CRUIZ Staked</Typography>
+            <Typography className='address'>{totalStaked} BVB Amount</Typography>
           </Box>
         </Box>
         <Box className="card-body">
@@ -89,18 +89,18 @@ export default function StakeLog() {
               </Grid>
               <Grid item xs={4} md={3} lg={2}>
                 <Typography className='column-title'>Amount</Typography>
-                <Typography className='column-value'>{item.amount ?? 0} CRUIZ</Typography>
+                <Typography className='column-value'>{item.amount ?? 0} BVB</Typography>
               </Grid>
               <Grid item xs={4} md={3} lg={2}>
                 <Typography className='column-title'>Receive</Typography>
                 <Typography className='column-value'>
-                  + {getStakeRewardAmount(item.amount, item.stake_type)} CRUIZ
+                  + {getStakeRewardAmount(item.amount, item.stake_type)} BVB
                 </Typography>
               </Grid>
               <Grid item xs={4} md={3} lg={2}>
                 <Typography className='column-title'>
                   {item.flag === 1 ?
-                    <span className='rewarded'>{item.reward_amount ?? 0} CRUIZ</span> :
+                    <span className='rewarded'>{item.reward_amount ?? 0} BVB</span> :
                     "Days left"}
                 </Typography>
                 <Typography className='column-value'>

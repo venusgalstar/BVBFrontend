@@ -46,8 +46,8 @@ export default function Appbar({ title, description }) {
                             <Image className="mobile-logo" href="/" src={Logo} />
                         </MenuItem>
                         <MenuItem onClick={handleClose}><Link to="https://cruiz.ai" >Home</Link></MenuItem>
-                        <MenuItem onClick={handleClose}><Link to="/" >Cruiz Staking</Link></MenuItem>
-                        <MenuItem onClick={handleClose}><Link to="/stakelog" >My Staking</Link></MenuItem>
+                        {/* <MenuItem onClick={handleClose}><Link to="/" >BVB Website</Link></MenuItem> */}
+                        <MenuItem onClick={handleClose}><Link to="/" >My Reward</Link></MenuItem>
                     </Menu>
                 </Box>
                 <Box className="page-title" sx={{ flexGrow: 1 }}>

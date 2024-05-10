@@ -9,7 +9,7 @@ export default function DashboardLayout(props) {
     return (
         <Box {...restProps}>
             <Sidebar />
-            <Appbar title="CRUIZ Staking" description="Stake CRUIZ and receive CRUIZ after lock is released." />
+            <Appbar title="BVB Reward" description="Hold BVB and receive BVB when you want." />
             <Box className="main-layout">
                 <Box className={className}>
                     {children}

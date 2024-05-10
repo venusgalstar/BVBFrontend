@@ -38,7 +38,7 @@ export default function WalletButton() {
                 </Button> :
                 <Box className="account-container">
                     <CenterBox>
-                        <Typography className='hold-amount'>{0 || "0.0"} CRUIZ</Typography>
+                        <Typography className='hold-amount'>{0 || "0.0"} BVB</Typography>
                     </CenterBox>
                     <Button className="account-wrapper" onClick={onCopy}>
                         <Typography className='address'>{formatAddress(address)}</Typography>

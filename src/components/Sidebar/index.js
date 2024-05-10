@@ -21,24 +21,24 @@ export default function Sidebar() {
                     <Image href="https://cruiz.ai" src={LogoImage} />
                 </CenterBox>
                 <List component="nav" className='menu-wrapper'>
-                    <Link to="/">
+                    {/* <Link to="/">
                         <ListItemButton className={`menu-item ${activeItem === 0 ? "active" : ""}`}
                             onClick={(event) => handleListItemClick(event, 0)}
                         >
                             <ListItemIcon className='menu-icon'>
                                 <Image src={`icons/stake${activeItem === 0 ? "_active" : ""}.svg`} />
                             </ListItemIcon>
-                            <ListItemText primary="Cruiz Staking" className='menu-text' />
+                            <ListItemText primary="BVB Reward" className='menu-text' />
                         </ListItemButton>
-                    </Link>
-                    <Link to="/stakelog">
+                    </Link> */}
+                    <Link to="/">
                         <ListItemButton className={`menu-item ${activeItem === 1 ? "active" : ""}`}
                             onClick={(event) => handleListItemClick(event, 1)}
                         >
                             <ListItemIcon className='menu-icon'>
                                 <Image src={`icons/marketplace${activeItem === 1 ? "_active" : ""}.svg`} />
                             </ListItemIcon>
-                            <ListItemText primary="My Staking" className='menu-text' />
+                            <ListItemText primary="My Reward" className='menu-text' />
                         </ListItemButton>
                     </Link>
                 </List>

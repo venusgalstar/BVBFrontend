@@ -74,7 +74,7 @@ export default function Home() {
         <Box className="card-header">
           <Box>
             <Typography className='amount-label'>Available to Stake</Typography>
-            <Typography className='amount'>{amountToken} CRUIZ</Typography>
+            <Typography className='amount'>{amountToken} BVB</Typography>
           </Box>
           <Box className="account-container">
             <Typography className='address'>{formatAddress(address)}</Typography>
@@ -100,7 +100,7 @@ export default function Home() {
               </Grid>
               <Grid item xs={4}>
                 <Typography className='column-title'>Receive</Typography>
-                <Typography className='column-value'>{option.receive ?? 0} CRUIZ</Typography>
+                <Typography className='column-value'>{option.receive ?? 0} BVB</Typography>
               </Grid>
             </Grid>
           ))}
