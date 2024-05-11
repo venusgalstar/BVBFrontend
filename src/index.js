@@ -32,7 +32,7 @@ export const AppContext = React.createContext();
 function AppProvider({ children }) {
   const { address } = useAccount();
   const [amountToken, setAmountToken] = useState(0);
-  const [lookVisible, setLookVisible] = useState(true);
+  const [lookVisible, setLookVisible] = useState(false);
   const [stakeOptions, setStakeOptions] = useState([
     {
       duration: 1,
